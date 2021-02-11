@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <title>Hello</title>
+
+    <link rel="stylesheet" href="helloworld.css">
+
+    <script>
+        function myFunction() {
+            var newname = document.getElementById("fname").value;
+            document.getElementById("greeting").innerHTML = "Welcome "+newname+"!";
+
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Hello!</h1>
+    <form>
+        <label for="fname">What is your name?<br><br>Enter here:</label>
+        <input type="text" id="fname" name="fname">
+        <br>
+        <br>
+    </form>
+    <div class="text-center">
+    <button type="button" onclick="myFunction()">Click Me!</button>
+    </div>
+
+<p id="greeting"></p>
+<br>
+</body> 
+</html>

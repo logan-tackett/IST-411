@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    
+<head>
+    <title>OS Survey</title>
+
+    <link rel="stylesheet" href="survey.css">   
+</head>
+
+<body>
+    <h1>Operating Systems Survey</h1>
+
+    <!--Question #1 "enter a value in at least one text field"-->
+    <form action="/action_page.php">
+        <label for="name">*Enter your name here:</label>
+        <input type="text" id="name" name="name" required>
+    </form>
+
+    <br>
+    <!--Question #2 "select value(s) using check boxes"-->
+    <p>*What Operating Systems have you used? (Check all that apply)</p>
+    <form required>  
+        <input type="checkbox" id="windowsnew" name="OS" value="windowsnew" required>
+        <label for="windowsnew">Windows 10/8/7</label><br>
+        <input type="checkbox" id="windowsold" name="OS" value="windowsold" required>
+        <label for="windowsold">Windows Vista/XP/Older</label><br>
+        <input type="checkbox" id="mac" name="OS" value="mac" required>
+        <label for="mac">Mac OSX</label><br>
+        <input type="checkbox" id="unix" name="OS" value="unix" required>
+        <label for="unix">Unix-based OS</label><br>
+        <input type="checkbox" id="none" name="OS" value="none" required>
+        <label for="none">None of the above</label>
+      </form>
+
+    <br>
+    <!--Question #3 "select a value in at least one dropdown list"-->
+    <p>*Select your overall preferred OS.</p>
+    <label for="os"></label>
+    <select id="os" name="os">
+      <option value="windowsnew">Windows 10/8/7</option>
+      <option value="windowsold">Windows Vista/XP/Older</option>
+      <option value="mac">Mac OSX</option>
+      <option value="unix">Unix-based OS</option>
+      <option value="none">N/A</option>
+    </select>
+    <br>
+    <br>
+    <!--Question #4 "select a value using radio buttons"-->
+    <p>*What percentage of your time on a computer is spent on your preferred OS?</p>
+    <form>
+        <input type="radio" id="100" name="percent" value="100" required>
+        <label for="100">80-100%</label><br>
+        <input type="radio" id="80" name="percent" value="80">
+        <label for="80">60-80%</label><br>
+        <input type="radio" id="60" name="percent" value="60">
+        <label for="60">40-60%</label><br>
+        <input type="radio" id="40" name="percent" value="40">
+        <label for="40">20-40%</label><br>
+        <input type="radio" id="20" name="percent" value="20">
+        <label for="20">0-20%</label>
+      </form>
+
+      <br>
+      <!--Question #5 "enter data in a text area"-->
+      <p>*Please explain why you have the preference of OS that you do?</p>
+      <form required onSubmit="alert('Succesfully Submitted')">
+        <textarea name="message" rows="5" cols="54" required></textarea>
+        <br>
+        <br>
+        <input type="submit">
+      </form>      
+
+</body>
+
+</html>

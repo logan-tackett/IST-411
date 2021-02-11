@@ -1,0 +1,19 @@
+body{
+    background-color:lightblue;
+}
+h1{
+    color:red;
+    font-size:50px;
+    text-align: center;
+}
+form{
+    text-align: center;
+}
+.text-center {
+    text-align: center;
+}
+p {
+    color:blue; 
+    font-size:25px;
+    text-align: center;
+}

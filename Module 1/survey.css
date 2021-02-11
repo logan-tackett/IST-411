@@ -1,0 +1,18 @@
+body{
+    background-color:lightsteelblue;
+}
+h1{
+    color:darkslateblue;
+    text-align:center
+}
+form{
+    color:darkblue;
+    margin-left:500px
+}
+select{
+    margin-left:500px
+}
+p {
+    color:darkblue; 
+    margin-left:500px
+}
