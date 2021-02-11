@@ -10,21 +10,21 @@
 <body>
     <h1>This is the Heading for the Flexbox Exercise</h1>
 
-    <div class="myflexboxR">
-        <div class="myflexboxC" style="background-color: white">
+    <div class="row">
+        <div class="column" style="background-color: yellow">
             <h2>Box #1 - Hyperlink</h2>
             <p><a href="https://www.youtube.com/"target="_blank" style="width:100%">Watch Youtube Free </a></p>
         </div>
 
     
-        <div class="myflexboxC" style="background-color: red">
+        <div class="column" style="background-color: red">
             <h2>Box #2 - An Image</h2>
             <p><img src="Image.jpg" alt="Picture of thing" style="width:100%;"></p>
         </div>
 
 
   
-        <div class="myflexboxC" style="background-color: green">
+        <div class="column" style="background-color: green">
             <h2>Box #3 - A Video</h2>
             <p>
                <video width="100%" controls>
@@ -34,10 +34,10 @@
             </p>
         </div>
 
-        <div class="myflexboxC" style="background-color: blue">
+        <div class="column" style="background-color: blue">
             <p>Click the button to get your coordinates.</p>
 
-            <button onclick="getLocation()">Try It</button>
+            <button onclick="getLocation()" style="width:100%">Try It</button>
 
             <p id="demo"></p>
 
