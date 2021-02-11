@@ -1,0 +1,22 @@
+.myflexboxR{
+    display: flex;
+    flex-direction: row;
+}
+.myflexboxR > div {
+    width: 1000px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+.myflexboxC{
+    display: flex;
+    flex-direction: column;
+}
+.myflexboxC > div {
+    width: 1000px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
