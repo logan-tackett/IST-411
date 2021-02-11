@@ -8,36 +8,38 @@
     <title>Flexboxes</title>      
 </head>
 <body>
-    <h1>This is the Heading for the Flexbox Exercise</h1>
+    <h1>Flexbox Exercise</h1>
 
     <div class="row">
-        <div class="column" style="background-color: yellow">
+        <div class="column" style="background-color:rgba(44, 130, 201, .2);">
             <h2>Box #1 - Hyperlink</h2>
-            <p><a href="https://www.youtube.com/"target="_blank" style="width:100%">Watch Youtube Free </a></p>
+            <p><a href="https://earth.google.com/web/"target="_blank" style="width:100%">Explore the World With Google Earth</a></p>
+            <p><a href="https://earth.google.com/web/"target="_blank" style="width:100%"><img src="earth.png" alt="Google Earth Logo" style="width:100%;"></a></p>
         </div>
 
     
-        <div class="column" style="background-color: red">
+        <div class="column" style="background-color: rgba(44, 130, 201, .4);">
             <h2>Box #2 - An Image</h2>
-            <p><img src="Image.jpg" alt="Picture of thing" style="width:100%;"></p>
+            <p><img src="volcano.jpg" alt="Image of a volcano and waterfall" style="width:100%;"></p>
+            <p><a href="https://www.reddit.com/r/EarthPorn/comments/cshcdu/you_might_have_seen_it_before_but_heres_that_one/"target="_blank" style="width:100%">Credit: malthezimakoff</a></p>
         </div>
 
-
   
-        <div class="column" style="background-color: green">
+        <div class="column" style="background-color: rgba(44, 130, 201, .6);">
             <h2>Box #3 - A Video</h2>
             <p>
-               <video width="100%" controls>
-                   <source src="Video.mp4" type="video/mp4">
+               <video width="100%" controls autoplay muted loop> 
+                   <source src="dronevideo.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                </video> 
             </p>
+            <p><a href="https://www.instagram.com/p/B_c5RIFnU4-/?igshid=kkjdv89swv52"target="_blank" style="width:100%">Credit: andriu_fpv</a></p>
         </div>
 
-        <div class="column" style="background-color: blue">
-            <p>Click the button to get your coordinates.</p>
+        <div class="column" style="background-color: rgba(44, 130, 201, .8);">
+            <h2>Box #4 - Geolocation</h2>
 
-            <button onclick="getLocation()" style="width:100%">Try It</button>
+            <button onclick="getLocation()" style="width:100%">Click Me.</button>
 
             <p id="demo"></p>
 
