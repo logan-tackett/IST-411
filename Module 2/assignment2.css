@@ -1,26 +1,31 @@
-/*Two Extra CSS:
-Text Shadow
-Background image of entire page*/
+/* Extas are noted in comments */
 
 body {
     text-align: center;
     color: white;
-    font-size: 25px;
-    text-shadow: 2px 2px #000000;
-    background-image: url('media/background.png');
+    text-shadow: 2px 2px #000000; /*Text shadow*/
+    background-image: url('media/background.png'); /*Entire page background image*/
     background-attachment: scroll;
-    font-family: Georgia, 'Times New Roman', Times, serif
+    font-family: Georgia, 'Times New Roman', Times, serif /*Custom font*/
 
-  }
-  div {
-    white-space: nowrap;
-  }
+}
+h3 {
+  font-size:25px;
+}
+p {
+  font-size: 20px;
+}
+
+
+div {
+    white-space: nowrap; /*Doesn't allow text to wrap onto multiple lines*/
+}
+
 .row{
   display: flex;
   text-align: center;
   flex-wrap: wrap;
   justify-content: space-between;
-
 }
 
 .column{
@@ -29,7 +34,7 @@ body {
 }
 
 img {
-  border-radius: 30px;
+  border-radius: 30px; /*Creates rounded image corners*/
   max-width:100%;
   height: auto;
 }
@@ -39,6 +44,13 @@ img {
     flex: 50%;
     max-width: 50%;
   }
+}
+
+.image_off, #home:hover .image_on{ /*allows images to change on hover*/
+  display:none
+}
+.image_on, #home:hover .image_off{ /*allows images to change on hover*/
+  display:block
 }
 
 @media (max-width: 600px) {

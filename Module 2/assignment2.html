@@ -1,14 +1,11 @@
-<!--Two Extra HTML:
-Favicon
-Hyperlink in Image
-Placeholder on textbox-->
+<!--Extras are noted in comments-->
 <!DOCTYPE html>
 <html lang="en-US">
     
 <head>
     <meta name="viewport" content="width-device-width, initial-scale-1">
     <link rel="stylesheet" href="assignment2.css">
-    <link rel="icon" href="Media/favicon.png" sizes="16x16 32x32" type="image/png"> 
+    <link rel="icon" href="Media/favicon.png" sizes="16x16 32x32" type="image/png"> <!--Adds Favicon (Icon displayed on address bar)-->
 
     <title>Hoodie Haven</title>      
 </head>
@@ -19,7 +16,7 @@ Placeholder on textbox-->
         </div>
         
         <div class="column">
-            <p><a href="https://www.amazon.com/gp/cart/view.html?ref_=nav_cart" target="_blank" style="width:100%">
+            <p><a href="https://www.amazon.com/gp/cart/view.html?ref_=nav_cart" target="_blank" style="width:100%"> <!--Hyperlinks within the images-->
                 <img src="Media/cart.png" alt="Shopping Cart" style="width:25%;"></a></p>
         </div>
     </div>
@@ -27,27 +24,35 @@ Placeholder on textbox-->
 
     <div class="row">
         <div class="column">
-            <h2>New Arrival</h2>
-            <p><a href="https://www.brooklyncloth.com/collections/mens-hoodies-sweatshirts/products/world-wide-web-iridescent-hood-black-world-wide-web-iridescent-hoodie"
-                target="_blank" style="width:100%"><img src="Media/brooklyn.png" alt="Black World Wide Web Hoodie"></a></p>
+            <h1>New Arrival</h1>
+            <p><a href="https://www.brooklyncloth.com/collections/mens-hoodies-sweatshirts/products/world-wide-web-iridescent-hood-black-world-wide-web-iridescent-hoodie" 
+                target="_blank" style="width:100%" id="home"> <!--Hyperlinks within the images-->
+                <img class="image_on" src="Media/brooklyn.png" alt="Black World Wide Web Hoodie"/>
+                <img class="image_off" src="Media/brooklyn-people.jpg" alt="Black World Wide Web Hoodie Modeled"/></a></p> <!--Images change on hover-->
         </div>
 
         <div class="column">
-            <h2>Best Selling</h2>
+            <h1>Best Selling</h1>
             <p><a href="https://shirtz.cool/collections/jumpers/products/the-nothing-hoodie"
-                target="_blank" style="width:100%"><img src="Media/coolshirtz.png" alt="Blue Nothing Face Hoodie"></a></p>
+                target="_blank" style="width:100%" id="home"> <!--Hyperlinks within the images-->
+                <img class="image_on" src="Media/coolshirtz.png" alt="Blue Nothing Face Hoodie"/>
+                <img class="image_off" src="Media/coolshirtz-people.jpg" alt="Blue Nothing Face Hoodie Modeled"/></a></p> <!--Images change on hover-->
         </div>
 
         <div class="column">
-            <h2>Our Choice</h2>
+            <h1>Our Choice</h1>
             <p><a href="https://www.uniqlo.com/us/en/kids-the-universe-of-marvel-sweat-long-sleeve-hoodie-432075.html?dwvar_432075_color=COL00&cgid=ut-graphic-tees-marvel"
-                target="_blank" style="width:100%"><img src="Media/spider-man.png" alt="White Spider-Man Hoodie"></a></p>
+                target="_blank" style="width:100%" id="home"> <!--Hyperlinks within the images-->
+                <img class="image_on" src="Media/spider-man.png" alt="White Spider-Man Hoodie"/>
+                <img class="image_off" src="Media/spider-man-zoom.jpg"alt="White Spider-Man Hoodie Zoomed"/></a></p> <!--Images change on hover-->
         </div>
 
         <div class="column">
-            <h2>On Sale</h2>
+            <h1>On Sale</h1>
             <p><a href="https://www.champion.com/reverse-weave-hoodie.html?color=5863"
-                target="_blank" style="width:100%"><img src="Media/champion.png" alt="Yellow Champion Hoodie"></a></p>
+                target="_blank" style="width:100%" id="home"> <!--Hyperlinks within the images-->
+                <img class="image_on" src="Media/champion.png" alt="Yellow Champion Hoodie" />
+                <img class="image_off" src="Media/champion-people.png" alt="Yellow Champion Hoodie Modeled" /></a></p> <!--Images change on hover-->
         </div>
     </div>
 
@@ -63,9 +68,10 @@ Placeholder on textbox-->
         <div class="column">
             <br>
             <form required onSubmit="alert('Succesfully Submitted')">
-                <label for="name">Join Our Mailing List:</label>
+                <label for="name" style="font-size:25px">Join Our Mailing List:</label>
                 <br>
-                <input type="text" id="name" name="name" required placeholder="youremail@email.com">
+                <br>
+                <input type="text" id="name" name="name" required placeholder="youremail@email.com"> <!--placerholder within textbox-->
                 <input type="submit">
               </form> 
         </div>
