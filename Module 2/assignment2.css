@@ -1,31 +1,37 @@
-h1{
-    text-align: center;
-    font-size: 60px;
-    color: white;
-    text-shadow: 4px 1px #000000;
-    font-family: Georgia, 'Times New Roman', Times, serif
-  }
+/*Two Extra CSS:
+Text Shadow
+Background image of entire page*/
 
 body {
     text-align: center;
-    font-size: 24px;
     color: white;
-    text-shadow: 2px 1px #000000;
+    font-size: 25px;
+    text-shadow: 2px 2px #000000;
     background-image: url('media/background.png');
     background-attachment: scroll;
-    font-family: geo
+    font-family: Georgia, 'Times New Roman', Times, serif
 
   }
-
-  .row{
+  div {
+    white-space: nowrap;
+  }
+.row{
   display: flex;
   text-align: center;
   flex-wrap: wrap;
+  justify-content: space-between;
+
 }
 
 .column{
   flex: 25%;
   max-width: 25%;
+}
+
+img {
+  border-radius: 30px;
+  max-width:100%;
+  height: auto;
 }
 
 @media (max-width: 992px) {

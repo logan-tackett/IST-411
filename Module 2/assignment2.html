@@ -1,3 +1,7 @@
+<!--Two Extra HTML:
+Favicon
+Hyperlink in Image
+Placeholder on textbox-->
 <!DOCTYPE html>
 <html lang="en-US">
     
@@ -11,53 +15,57 @@
 <body>
     <div class="row">
         <div class="column">
-            <p><img src="Media/Title.png" alt="Hoodie Haven Logo" style="width:100%;"></p>
+            <p><img src="Media/Title.png" alt="Hoodie Haven Logo"></p>
         </div>
-
+        
         <div class="column">
-            <p><img src="Media/cart.png" alt="Shopping Cart" style="width:25%;"></p>
+            <p><a href="https://www.amazon.com/gp/cart/view.html?ref_=nav_cart" target="_blank" style="width:100%">
+                <img src="Media/cart.png" alt="Shopping Cart" style="width:25%;"></a></p>
         </div>
     </div>
 
 
     <div class="row">
         <div class="column">
-            <h2>New This Month</h2>
+            <h2>New Arrival</h2>
             <p><a href="https://www.brooklyncloth.com/collections/mens-hoodies-sweatshirts/products/world-wide-web-iridescent-hood-black-world-wide-web-iridescent-hoodie"
-                target="_blank" style="width:100%"><img src="Media/brooklyn.png" alt="Black World Wide Web Hoodie" style="width:100%;"></a></p>
+                target="_blank" style="width:100%"><img src="Media/brooklyn.png" alt="Black World Wide Web Hoodie"></a></p>
         </div>
 
         <div class="column">
             <h2>Best Selling</h2>
             <p><a href="https://shirtz.cool/collections/jumpers/products/the-nothing-hoodie"
-                target="_blank" style="width:100%"><img src="Media/coolshirtz.png" alt="Blue Nothing Face Hoodie" style="width:100%;"></a></p>
+                target="_blank" style="width:100%"><img src="Media/coolshirtz.png" alt="Blue Nothing Face Hoodie"></a></p>
         </div>
 
         <div class="column">
             <h2>Our Choice</h2>
             <p><a href="https://www.uniqlo.com/us/en/kids-the-universe-of-marvel-sweat-long-sleeve-hoodie-432075.html?dwvar_432075_color=COL00&cgid=ut-graphic-tees-marvel"
-                target="_blank" style="width:100%"><img src="Media/spider-man.png" alt="White Spider-Man Hoodie" style="width:100%;"></a></p>
+                target="_blank" style="width:100%"><img src="Media/spider-man.png" alt="White Spider-Man Hoodie"></a></p>
         </div>
 
         <div class="column">
             <h2>On Sale</h2>
             <p><a href="https://www.champion.com/reverse-weave-hoodie.html?color=5863"
-                target="_blank" style="width:100%"><img src="Media/champion.png" alt="Yellow Champion Hoodie" style="width:100%;"></a></p>
+                target="_blank" style="width:100%"><img src="Media/champion.png" alt="Yellow Champion Hoodie"></a></p>
         </div>
     </div>
 
 
     <div class="row">
         <div class="column">
-            <h3>Contact Us</h3>
+            <h3>Contact Us:</h3>
             <p>555-555-5555</p>
             <p>placeholder@email.com</p>
         </div>
 
+        
         <div class="column">
+            <br>
             <form required onSubmit="alert('Succesfully Submitted')">
                 <label for="name">Join Our Mailing List:</label>
-                <input type="text" id="name" name="name" required>
+                <br>
+                <input type="text" id="name" name="name" required placeholder="youremail@email.com">
                 <input type="submit">
               </form> 
         </div>
