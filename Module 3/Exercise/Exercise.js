@@ -4,11 +4,11 @@ function validateandadd() {
     var TheNewNumber = document.forms["myForm"]["newNumber"].value;
 
     if(TheNewWord == ""){
-        alert("Please enter a word to check");
+        alert("Please enter a word");
         return false;
     }
     else if ((TheNewNumber != 1) && (TheNewNumber != 2)){
-        alert("Enter a 1 or 2");
+        alert("Enter a 1 or a 2");
         document.forms["myForm"]["newNumber"].value = "";
         return false;
     }

@@ -1,14 +1,23 @@
+body{
+  background-color:slategray;
+  color:white;
+  text-shadow: 2px 2px #000000;
+}
+
 .row{
     display: flex;
-    text-align: center;
     flex-wrap: wrap;
-    justify-content: space-between;
     }
   
 .column{
     flex: 25%;
     max-width: 25%;
-       }
+    outline-style:auto;
+    outline-color:black;
+    outline-offset:1px;
+    padding: 30px;
+}
+
 
 @media (max-width: 992px) {
   .column {
