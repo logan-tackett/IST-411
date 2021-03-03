@@ -15,7 +15,7 @@ function validateandadd() {
     else {
         if (TheNewNumber==1){
             var tableRef = document.getElementById("myList1");
-            (tableRef.insertRow(tableRef.rows.length)).innerHTML = TheNewWord;
+            (tableRef.insertRow(tableRef.rows.length)).innerHTML = TheNewWord;  
         }
         else{
             var tableRef = document.getElementById("myList2");
