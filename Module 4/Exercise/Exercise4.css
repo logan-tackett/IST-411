@@ -1,6 +1,16 @@
+body{
+  background-image: url('baconbackground.jpg');
+  background-size: 100%;
+  background-attachment:scroll;
+  color:white;
+  text-shadow: 1px 1px black;
+}
+
 .row{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
 }
   
 .column{
@@ -10,6 +20,8 @@
     outline-color:black;
     outline-offset:1px;
     padding: 30px;
+    margin: 5px;
+    text-align: center;
 }
 
 

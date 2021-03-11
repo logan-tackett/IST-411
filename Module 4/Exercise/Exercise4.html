@@ -12,7 +12,7 @@
     <div class="row">
 
         <div class="column">
-            <label for="newParagraphs">How many paragraphs?</label>
+            <label for="newParagraphs" style="font-size: 20px;">How much Bacon?</label>
             <select id = "newParagraphs">
                 <option value=1>1</option>
                 <option value=2>2</option>
@@ -21,14 +21,18 @@
                 <option value=5>5</option>
             </select>
             <br><br>
-            <input type="button" value="Get Bacon Ipsum" onclick="getBaconipsum()">
+            <input type="button" value="Get Bacon" onclick="getBaconipsum()">
         </div>
+    </div>
+    <div class="row">
 
         <div class="column">
+            <h2>Unformatted Bacon Ipsum:</h2>
             <p id ="myRawData"></p>
         </div>
 
         <div class="column">
+            <h2>Formatted Bacon Ipsum:</h2>
             <p id ="myFormattedData"></p>
         </div>
 
