@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scrim Exercise</title>
+    <link rel="stylesheet" href="github.css">
+    <script src="github.js"></script>
+</head>
+<body>
+
+    <div class="row">
+
+        <div class="column">
+            <form action="/action_page.php">
+                <label for="name">Enter a Github username:</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+                <br>
+                <input type="button" value="Submit Username" onclick="callGitHub()">
+            </form>
+        </div>
+
+        <div class="column">
+            <p id ="repoData"></p>
+        </div>
+        <div class="column">
+            <p id ="formattedRepoData"></p>
+        </div>
+
+    </div>
+</body>
+</html>
