@@ -21,11 +21,10 @@ class Survey extends React.Component {
 
     mySubmitHandler = (event) => {
       alert("The following has been submitted: \r\n" +
-      "Name:\t\t\t" +this.state.name+ "\n"+
-      "os:\t\t\t" +this.state.os+ "\n" +
-      "Situation:\t\t" +this.state.currentSit + "\n" +
-      "Percent:\t" +this.state.percent + "\n" +
-      "Message:\t\t" +this.state.message + "\n");
+      "Name:" +this.state.name+ "\n"+
+      "os:" +this.state.os+ "\n" +
+      "Percent:" +this.state.percent + "\n" +
+      "Message:" +this.state.message + "\n");
     }
 
     render(){
