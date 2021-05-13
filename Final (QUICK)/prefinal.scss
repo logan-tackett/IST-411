@@ -1,0 +1,39 @@
+body{
+  background-size: 100%;
+  background-attachment:scroll;
+  color:black;
+  text-shadow: 1px 1px white;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+  
+.column{
+    flex: 25%;
+    max-width: 25%;
+    outline-style:auto;
+    outline-color:black;
+    outline-offset:1px;
+    padding: 30px;
+    margin: 5px;
+    text-align: center;
+}
+
+
+@media (max-width: 992px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
